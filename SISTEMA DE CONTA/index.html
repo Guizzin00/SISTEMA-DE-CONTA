@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conta da Hamburgueria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conta da Hamburgueria</h1>
+        <form onsubmit="calcContaHamburgueria(); return false;">
+            Quantidade de Hambúrgueres: <input type="number" id="qtdHamburguer" required><br>
+            Quantidade de Refrigerantes: <input type="number" id="qtdRefrigerante" required><br>
+            Quantidade de Batatas Fritas: <input type="number" id="qtdBatata" required><br>
+            Número de Pessoas na Mesa: <input type="number" id="qtdPessoas" required><br>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
